@@ -1,0 +1,8 @@
+.heading1:after {
+    content: '';
+    display: block;
+    height: 8px;
+    width: 164px;
+    color: #1abc9c;
+    margin: 10px auto;
+}

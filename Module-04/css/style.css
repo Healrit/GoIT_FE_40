@@ -1,0 +1,219 @@
+.page-header {
+  width: 1120px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1160px;
+  margin: 0;
+  padding: 0;
+}
+
+.page-header {
+  width: 1110px;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.logo {
+  font-size: 30px;
+  line-height: 32px;
+  text-transform: uppercase;
+  float: left;
+  margin-top: 34px;
+  color: #555252;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.logo::first-letter {
+  color: #1abc9c;
+}
+
+.letter-color {
+  color: #1abc9c;
+}
+
+.site-navigation {
+  float: right;
+  width: 464px;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+}
+
+.site-navigation a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0f0101;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.site-navigation li {
+  float: left;
+  margin-right: 26px;
+  margin-top: 40px;
+}
+
+.site-navigation li:last-child {
+  margin-right: 0;
+}
+
+.green-color {
+  color: #1abc9c;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.heading-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 104px;
+}
+
+.heading-1:after {
+  display: block;
+  content: "";
+  width: 164px;
+  height: 8px;
+  background-color: #1abc9c;
+  margin: 0 auto;
+}
+
+.heading-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.heading-2:after {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 164px;
+  background-color: #1abc9c;
+  margin: 0px auto;
+}
+
+.featured-product-list {
+  list-style: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+.featured-product-item {
+  float: left;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.featured-product-item:hover {
+  background-color: #1abc9c;
+}
+
+.featured-product-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.featured-product-name {
+  float: left;
+  width: 200px;
+  height: 40px;
+  background-color: #323232;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.featured-product-name:hover {
+  background-color: #1abc9c;
+}
+
+.featured-product-price {
+  float: left;
+  width: 56px;
+  height: 40px;
+  background-color: #8c8c8c;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.featured-product-price:hover {
+  background-color: #7fd9c7;
+}
+
+.featured-product-image {
+  background-color: #e9f0fd;
+  width: 256px;
+  height: 282px;
+}
+
+.latest-news-list {
+  padding: 0;
+}
+
+.latest-news-item {
+  list-style: none;
+  float: left;
+  width: 350px;
+  margin-right: 30px;
+}
+
+.latest-news-item:last-child {
+  margin-right: 0;
+}
+
+.under-image-text-s2-1 {
+  font-family: "Open Sans";
+  font-size: 18px;
+  display: inline-block;
+  line-height: 26px;
+  font-weight: 600;
+  color: #555252;
+}
+
+.under-image-text-s2-2 {
+  font-family: "Open Sans";
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #555252;
+}
+
+.read-more {
+  width: 160px;
+  height: 50px;
+  background-color: #4ec6ab;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+
+/*  <link href=https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+    font-family: 'Open Sans', sans-serif; */
