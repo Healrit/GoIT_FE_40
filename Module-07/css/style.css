@@ -1,0 +1,377 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 120px;
+}
+
+.site-logo {
+  display: inline-block;
+  width: 79px;
+  height: 28px;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 486px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 41px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.1s linear;
+}
+
+.site-navigation a:hover {
+  color: #fedd6c;
+}
+
+/* SECTIONS' HEADINGS */
+
+.h1 {
+  font-size: 0px;
+}
+
+.phrase-one {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 75px;
+  font-weight: 700;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url(../font/Montserrat-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.h2 {
+  font-size: 0px;
+}
+
+.phrase-two {
+  font-family: "DroidSerif-Italic", sans-serif;
+  margin-bottom: 72px;
+  margin-top: 0px;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: center;
+  color: #777777;
+}
+
+@font-face {
+  font-family: "DroidSerif-Italic";
+  src: url(../font/DroidSerif-Italic.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* SERVICES SECTION */
+
+.list-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.services-item {
+  position: relative;
+  flex: 0 0 290px;
+  text-align: center;
+}
+
+.services-item::before {
+  content: "";
+  display: block;
+  height: 75px;
+  margin-bottom: 24px;
+  border-radius: 50%;
+  border: 4 solid #fed136;
+  padding: 1px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.icon-basket::before {
+  background-image: url("/image/Icon-Basket.png");
+}
+
+.icon-laptop::before {
+  background-image: url("/image/Icon-Laptop.png");
+}
+
+.icon-locked::before {
+  background-image: url("/image/Icon-Locked.png");
+}
+
+.service-name {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 18px;
+  padding: 0px;
+  margin-bottom: 18px;
+  margin-top: 0px;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../font/Montserrat-Bold.ttf) format("truetype");
+  font-weight: 700;
+}
+
+.service-description {
+  font-family: "Roboto Slab", serif;
+  font-size: 14px;
+  line-height: 17px;
+  color: #777777;
+  padding: 0px;
+  margin-bottom: 120px;
+}
+
+
+/* CONTACT US SECTION */
+
+/* .banner {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+}
+
+.background {
+  position: absolute;
+  width: 614px;
+  height: 537px;
+  opacity: 0.902;
+  top: 820px;
+  left: 1200px;
+} */
+
+.contact-us {
+  min-height: 676px;
+  background-color: #222222;
+  background-image: url(/image/map.png);
+  background-repeat: no-repeat;
+  background-position: 920px 120px;
+}
+
+.phrase-three {
+  padding-top: 106px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+}
+
+.phrase-four {
+  font-family: "DroidSerif-Italic", sans-serif;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 78px;
+  color: #777777;
+}
+
+.questionnaire {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.form-column {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.form-column:last-child {
+  margin-right: 0;
+}
+
+.form-column input {
+  display: block;
+  margin-bottom: 30px;
+  padding: 5px 15px;
+}
+
+.form-column input:last-child {
+  margin-bottom: 0;
+}
+
+input[type="name"] {
+  display: block;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 458px;
+  height: 52px;
+  color: #bbbbbb;
+  border-radius: 3px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+input[type="name"]::placeholder {
+  text-transform: uppercase;
+}
+
+input[type="email"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+  background-color: #ffffff;
+  width: 458px;
+  height: 52px;
+  color: #bbbbbb;
+  border-radius: 3px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+input[type="email"]::placeholder {
+  text-transform: uppercase;
+}
+
+input[type="subject"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+  background-color: #ffffff;
+  width: 458px;
+  height: 52px;
+  color: #bbbbbb;
+  border-radius: 3px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+}
+
+input[type="subject"]::placeholder {
+  text-transform: uppercase;
+}
+
+textarea[name="message"] {
+  display: block;
+  margin: 0 auto;
+  background-color: #ffffff;
+  width: 458px;
+  height: 212px;
+  padding-top: 18px;
+  padding-left: 10px;
+  color: #bbbbbb;
+  border-radius: 3px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+textarea[name="message"]::placeholder {
+  text-transform: uppercase;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+  background-color: #fed136;
+  width: 240px;
+  height: 66px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+textarea {
+  height: 100%;
+  resize: none;
+}
+
+/* FOOTER */
+
+.page-footer {
+  background-color: #222222;
+  height: 114px;
+  font-size: 0px;
+}
+
+
+/* OTHER */
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
