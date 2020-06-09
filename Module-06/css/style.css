@@ -148,27 +148,27 @@ img {
 }
 
 .icon-clock::before {
-  background-image: url("/image/icons/icon-clock.png");
+  background-image: url("../image/icons/icon-clock.png");
 }
 
 .icon-line::before {
-  background-image: url("/image/icons/icon-line.png");
+  background-image: url("../image/icons/icon-line.png");
 }
 
 .icon-check::before {
-  background-image: url("/image/icons/icon-check.png");
+  background-image: url("../image/icons/icon-check.png");
 }
 
 .icon-book::before {
-  background-image: url("/image/icons/icon-book.png");
+  background-image: url("../image/icons/icon-book.png");
 }
 
 .icon-house::before {
-  background-image: url("/image/icons/icon-house.png");
+  background-image: url("../image/icons/icon-house.png");
 }
 
 .icon-square::before {
-  background-image: url("/image/icons/icon-square.png");
+  background-image: url("../image/icons/icon-square.png");
 }
 
 .service-name {
