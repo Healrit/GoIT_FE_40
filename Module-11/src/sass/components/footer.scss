@@ -1,0 +1,43 @@
+.page-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px #e5e5e5;
+  margin-bottom: 10px;
+}
+
+.page-footer__signupform {
+  display: flex;
+  margin-top: 10px;
+}
+
+.page-footer__signupform input::placeholder {
+  width: 230px;
+  height: 40px;
+  font-family: "Roboto-light-italic";
+  font-size: 15px;
+  line-height: $main-text-height;
+}
+
+.submit {
+  width: 150px;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: #95e1d3;
+  border: 1px;
+  border-color: #e7e7e7;
+}
+
+.page-footer__text {
+  font-family: "Montserrat", sans-serif;
+  font-size: $main-text-size;
+  line-height: 17px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.red {
+  color: #f38181;
+}

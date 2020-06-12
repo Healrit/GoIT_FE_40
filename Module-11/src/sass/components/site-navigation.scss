@@ -1,0 +1,36 @@
+.site-navigation {
+  @extend %list;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+
+.site-navigation__link {
+  @extend %link;
+  margin-right: 52px;
+  color: $primary-white-color;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 16px;
+  transition: color 0.2s linear;
+
+  &:hover:after {
+    position: absolute;
+    width: 52px;
+    height: 3px;
+    background-color: #fce38a;
+    content: "";
+    margin: 10px auto;
+  }
+
+  &:hover {
+    color: #fce38a;
+  }
+
+}
