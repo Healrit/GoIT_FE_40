@@ -1,0 +1,97 @@
+.services-list {
+  @extend %list;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services__item {
+  position: relative;
+  flex: 0 0 382px;
+  margin-bottom: 52px;
+  padding-left: 82px;
+}
+
+.services__icon {
+  &::before {
+    @include pseudo($display:inline-block);
+    position: absolute;
+    top: 0px;
+    left: 14px;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &--clock::before {
+    background-image: url("../images/icons/icon-clock.png");
+  }
+
+  &--line::before {
+    background-image: url("../images/icons/icon-line.png");
+  }
+
+  &--check::before {
+    background-image: url("../images/icons/icon-check.png");
+  }
+
+  &--book::before {
+    background-image: url("../images/icons/icon-book.png");
+  }
+
+  &--house::before {
+    background-image: url("../images/icons/icon-house.png");
+  }
+
+  &--square::before {
+    background-image: url("../images/icons/icon-square.png");
+  }
+}
+
+.service__item-name {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  font-size: $main-text-size;
+  line-height: 17px;
+  padding: 0px;
+  margin-bottom: 18px;
+  margin-top: 0px;
+}
+
+.service__item-description {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: $main-text-height;
+  color: #cccccc;
+  padding: 0px;
+  margin: 0px;
+}
+
+@media (min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .icon-clock::before {
+    background-image: url("../images/icons/icon-clock@2x.png");
+  }
+
+  .icon-line::before {
+    background-image: url("../images/icons/icon-line@2x.png");
+  }
+
+  .icon-check::before {
+    background-image: url("../images/icons/icon-check@2x.png");
+  }
+
+  .icon-book::before {
+    background-image: url("../images/icons/icon-book@2x.png");
+  }
+
+  .icon-house::before {
+    background-image: url("../images/icons/icon-house@2x.png");
+  }
+
+  .icon-square::before {
+    background-image: url("../images/icons/icon-square@2x.png");
+  }
+}

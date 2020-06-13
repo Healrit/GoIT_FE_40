@@ -1,0 +1,54 @@
+.banner {
+  background-image: url(/image/wallpaper.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1000px;
+  margin: auto;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.intro-one {
+  font-family: "Kaushanscript", sans-serif;
+  font-size: 72px;
+  line-height: 86.4px;
+  font-weight: 400;
+  color: $primary-white-color;
+  margin-top: 0px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.intro-two {
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 150px;
+  line-height: 140px;
+  width: 820px;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: $primary-white-color;
+  margin: 0px auto;
+  margin-top: 0px;
+  margin-bottom: 124px;
+}
+
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url(/font/Montserrat-Bold.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.learn-more {
+  border: 3px solid $primary-white-color;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  font-family: "Montserrat-bold", sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  color: $primary-white-color;
+  text-transform: uppercase;
+}
