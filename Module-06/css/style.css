@@ -132,7 +132,6 @@ img {
   flex: 0 0 382px;
   margin-bottom: 52px;
   padding-left: 82px;
-  /* border: 1px solid coral; */
 }
 
 .services-item::before {
@@ -254,7 +253,7 @@ img {
   display: inline-block;
   width: 56px;
   height: 56px;
-  background-image: url(/image/socials/facebook.png);
+  background-image: url(../image/socials/facebook.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fce38a;
@@ -271,7 +270,7 @@ img {
   display: inline-block;
   width: 56px;
   height: 56px;
-  background-image: url(/image/socials/twitter.png);
+  background-image: url(../image/socials/twitter.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fce38a;
@@ -288,7 +287,7 @@ img {
   display: inline-block;
   width: 56px;
   height: 56px;
-  background-image: url(/image/socials/pinterest.png);
+  background-image: url(../image/socials/pinterest.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fce38a;
@@ -305,7 +304,7 @@ img {
   display: inline-block;
   width: 56px;
   height: 56px;
-  background-image: url(/image/socials/instagram.png);
+  background-image: url(../image/socials/instagram.png);
   background-position: center;
   background-repeat: no-repeat;
   background-color: #fce38a;
