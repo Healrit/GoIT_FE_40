@@ -130,26 +130,26 @@ img {
 
 .services-item::before {
   content: "";
-  display: block;
-  height: 75px;
+  display: inline-block;
+  height: 60px;
+  width: 60px;
   margin-bottom: 24px;
   border-radius: 50%;
-  border: 4 solid #fed136;
-  padding: 1px;
+  border: 2px solid #fedd6c;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .icon-basket::before {
-  background-image: url("/image/Icon-Basket.png");
+  background-image: url("../image/Icon-Basket.png");
 }
 
 .icon-laptop::before {
-  background-image: url("/image/Icon-Laptop.png");
+  background-image: url("../image/Icon-Laptop.png");
 }
 
 .icon-locked::before {
-  background-image: url("/image/Icon-Locked.png");
+  background-image: url("../image/Icon-Locked.png");
 }
 
 .service-name {
@@ -175,24 +175,7 @@ img {
   margin-bottom: 120px;
 }
 
-
 /* CONTACT US SECTION */
-
-/* .banner {
-  position: relative;
-  justify-content: center;
-  align-items: center;
-  background-color: #222222;
-}
-
-.background {
-  position: absolute;
-  width: 614px;
-  height: 537px;
-  opacity: 0.902;
-  top: 820px;
-  left: 1200px;
-} */
 
 .contact-us {
   min-height: 676px;
