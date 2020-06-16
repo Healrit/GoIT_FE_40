@@ -180,7 +180,7 @@ img {
 .contact-us {
   min-height: 676px;
   background-color: #222222;
-  background-image: url(./image/map.png);
+  background-image: url(/image/map.png);
   background-repeat: no-repeat;
   background-position: 920px 120px;
 }
